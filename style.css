@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0px 0px;
+}
+body{
+    margin: 0;
+}
+
+nav .left {
+    color: #d92cf9;
+    font-size: 1.05rem;
+    width: 50%;
+    text-align: center;
+
+}
+nav .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0px 0px;
+    float: right;
+}
+nav .right a {
+    text-decoration: none;
+    color: grey;
+}
+nav .right a:hover {
+    color: #d92cf9;
+}
+nav .right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .right ul li {
+    list-style: none;
+    display: flex;
+    margin: 0 0.5rem;
+    
+}
+main{
+    padding: 0px 0px;
+    
+}
+.home{
+    background-color: rgba(31,44,108,.65);
+    color: white;
+    height: 90vh;;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+}
+.home button{
+    background-color: #d92cf9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+#about-me{
+    height: 30%;
+    width: 50%;
+    margin: 0px auto;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#about-me p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+#skills{
+    justify-content: center;
+}
+#skills h1{
+    text-align: center;
+}
+#skills ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+#certifications{
+    margin: 2rem 2rem;
+}
+#certifications h1{
+    text-align: center;
+}
+#certifications ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+}
+#projects{
+    margin: 2rem 2rem;
+
+}
+#projects h1{
+    text-align: center;
+}
+
